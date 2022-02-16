@@ -1,0 +1,38 @@
+body{
+    background-image: url(bg.png) ;
+    background-size: cover;
+    min-height: 100vh;
+    animation: bgnim 10s infinite
+  }
+
+  }
+  
+  .bird{
+    width: 120px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    animation: birdAnin 4s infinite;
+  
+}
+
+  .bird img{
+    width: 100%;
+  
+  
+  @keyframes birdAnin {
+    0%{
+      left: 0%;
+      transform: rotate(45deg);
+    }
+    50%{
+      left: 60%;
+      top: 10%;
+      width: 200px;
+      transform: rotate(-45deg);
+  
+    }
+    100%{
+      left:80%;
+    }
+  }
